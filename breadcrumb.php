@@ -1,5 +1,5 @@
 <?php
-// Breadcrumb extension, https://github.com/datenstrom/yellow-extensions/tree/master/source/breadcrumb
+// Breadcrumb extension, https://github.com/annaesvensson/yellow-breadcrumb
 
 class YellowBreadcrumb {
     const VERSION = "0.8.8";
