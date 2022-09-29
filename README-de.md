@@ -2,20 +2,20 @@
 
 # Breadcrumb 0.8.8
 
-Breadcrumb navigation.
+Brotkrümel-Navigation.
 
-<p align="center"><img src="breadcrumb-screenshot.png?raw=true" alt="Screenshot"></p>
+<p align="center"><img src="breadcrumb-screenshot.png?raw=true" alt="Bildschirmfoto"></p>
 
-## How to add a navigation
+## Wie man eine Navigation hinzufügt
 
-Create a `[breadcrumb]` shortcut. The breadcrumb navigation is automatically generated from the location.
+Erstelle eine `[breadcrumb]`-Abkürzung. Die Brotkrümel-Navigation wird automatisch aus der Adresse erzeugt.
 
-## Examples
+## Beispiele
 
-Content file with breadcrumb:
+Inhaltsdatei mit Brotkrümel:
 
     ---
-    Title: Example page
+    Title: Beispielseite
     ---
     [breadcrumb]
         
@@ -25,7 +25,7 @@ Content file with breadcrumb:
     esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt 
     in culpa qui officia deserunt mollit anim id est laborum.
 
-Layout file with breadcrumb:
+Layoutdatei mit Brotkrümel:
 
     <?php $this->yellow->layout("header") ?>
     <div class="content">
@@ -37,17 +37,17 @@ Layout file with breadcrumb:
     </div>
     <?php $this->yellow->layout("footer") ?>
 
-## Settings
+## Einstellungen
 
-The following settings can be configured in file `system/extensions/yellow-system.ini`:
+Die folgenden Einstellungen können in der Datei `system/extensions/yellow-system.ini` vorgenommen werden:
 
-`BreadcrumbSeparator` = text shown between elements  
-`BreadcrumbPagesMin` = number of pages to show breadcrumb navigation  
+`BreadcrumbSeparator` = Text der zwischen Elementen angezeigt wird  
+`BreadcrumbPagesMin` = Anzahl der Seiten um Brotkrümel-Navigation anzuzeigen  
 
 ## Installation
 
-[Download extension](https://github.com/datenstrom/yellow-extensions/raw/master/downloads/breadcrumb.zip) and copy zip file into your `system/extensions` folder. Right click if you use Safari.
+[Erweiterung herunterladen](https://github.com/datenstrom/yellow-extensions/raw/master/downloads/breadcrumb.zip) und die Zip-Datei in dein `system/extensions`-Verzeichnis kopieren. Rechtsklick bei Safari.
 
-## Developer
+## Entwickler
 
-Datenstrom. [Get help](https://datenstrom.se/yellow/help/).
+Datenstrom. [Hilfe finden](https://datenstrom.se/de/yellow/help/).

@@ -2,20 +2,20 @@
 
 # Breadcrumb 0.8.8
 
-Breadcrumb navigation.
+Brödcrumbnavigering.
 
-<p align="center"><img src="breadcrumb-screenshot.png?raw=true" alt="Screenshot"></p>
+<p align="center"><img src="breadcrumb-screenshot.png?raw=true" alt="Skärmdump"></p>
 
-## How to add a navigation
+## Hur man lägger till en navigering 
 
-Create a `[breadcrumb]` shortcut. The breadcrumb navigation is automatically generated from the location.
+Skapa en `[breadcrumb]` förkortning. Brödcrumbnavigeringen genereras automatiskt från adressen.
 
-## Examples
+## Exempel
 
-Content file with breadcrumb:
+Innehållsfil med brödcrumb: 
 
     ---
-    Title: Example page
+    Title: Exempelsida
     ---
     [breadcrumb]
         
@@ -25,7 +25,7 @@ Content file with breadcrumb:
     esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt 
     in culpa qui officia deserunt mollit anim id est laborum.
 
-Layout file with breadcrumb:
+Layoutfil med brödcrumb:
 
     <?php $this->yellow->layout("header") ?>
     <div class="content">
@@ -37,17 +37,17 @@ Layout file with breadcrumb:
     </div>
     <?php $this->yellow->layout("footer") ?>
 
-## Settings
+## Inställningar
 
-The following settings can be configured in file `system/extensions/yellow-system.ini`:
+Följande inställningar kan konfigureras i filen `system/extensions/yellow-system.ini`:
 
-`BreadcrumbSeparator` = text shown between elements  
-`BreadcrumbPagesMin` = number of pages to show breadcrumb navigation  
+`BreadcrumbSeparator` = text som visas mellan elementen  
+`BreadcrumbPagesMin` = antal sidor för att visa brödcrumbnavigering  
 
 ## Installation
 
-[Download extension](https://github.com/datenstrom/yellow-extensions/raw/master/downloads/breadcrumb.zip) and copy zip file into your `system/extensions` folder. Right click if you use Safari.
+[Ladda ner tillägg](https://github.com/datenstrom/yellow-extensions/raw/master/downloads/breadcrumb.zip) och kopiera zip-fil till din `system/extensions` mapp. Högerklicka om du använder Safari.
 
-## Developer
+## Utvecklare
 
-Datenstrom. [Get help](https://datenstrom.se/yellow/help/).
+Datenstrom. [Få hjälp](https://datenstrom.se/sv/yellow/help/).
