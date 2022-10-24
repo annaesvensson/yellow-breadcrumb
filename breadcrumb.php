@@ -2,7 +2,7 @@
 // Breadcrumb extension, https://github.com/annaesvensson/yellow-breadcrumb
 
 class YellowBreadcrumb {
-    const VERSION = "0.8.8";
+    const VERSION = "0.8.9";
     public $yellow;         // access to API
     
     // Handle initialisation
