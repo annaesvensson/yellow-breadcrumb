@@ -2,7 +2,7 @@
 // Breadcrumb extension, https://github.com/annaesvensson/yellow-breadcrumb
 
 class YellowBreadcrumb {
-    const VERSION = "0.8.9";
+    const VERSION = "0.8.10";
     public $yellow;         // access to API
     
     // Handle initialisation
@@ -20,7 +20,7 @@ class YellowBreadcrumb {
             $pages = $this->yellow->content->path($page->getLocation(true), true);
             if (count($pages)>=$this->yellow->system->get("breadcrumbPagesMin")) {
                 $page->setLastModified($pages->getModified());
-                $output = "<div class=\"breadcrumb\" role=\"navigation\">";
+                $output = "<div class=\"breadcrumb\" role=\"navigation\" aria-label=\"".$this->yellow->language->getTextHtml("breadcrumbNavigation")."\">";
                 foreach ($pages as $pageBreadcrumb) {
                     if ($pageBreadcrumb->getLocation()!=$page->getLocation()) {
                         $output .= "<a href=\"".$pageBreadcrumb->getLocation(true)."\">".$pageBreadcrumb->getHtml("titleNavigation")."</a>";
