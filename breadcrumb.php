@@ -20,13 +20,13 @@ class YellowBreadcrumb {
             $pages = $this->yellow->content->path($page->getLocation(true), true);
             if (count($pages)>=$this->yellow->system->get("breadcrumbPagesMin")) {
                 $page->setLastModified($pages->getModified());
-                $output = "<div class=\"breadcrumb\">";
+                $output = "<div class=\"breadcrumb\" role=\"navigation\">";
                 foreach ($pages as $pageBreadcrumb) {
                     if ($pageBreadcrumb->getLocation()!=$page->getLocation()) {
                         $output .= "<a href=\"".$pageBreadcrumb->getLocation(true)."\">".$pageBreadcrumb->getHtml("titleNavigation")."</a>";
                         $output .= " ".htmlspecialchars($separator)." ";
                     } else {
-                        $output .= "<span class=\"active\">".$pageBreadcrumb->getHtml("titleContent")."</span>";
+                        $output .= "<span class=\"active\" aria-current=\"page\">".$pageBreadcrumb->getHtml("titleContent")."</span>";
                     }
                 }
                 $output .= "</div>\n";
