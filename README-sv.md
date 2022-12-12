@@ -6,6 +6,10 @@ Brödcrumbnavigering.
 
 <p align="center"><img src="breadcrumb-screenshot.png?raw=true" alt="Skärmdump"></p>
 
+## Hur man installerar ett tillägg
+
+[Ladda ner ZIP-filen](https://github.com/annaesvensson/yellow-breadcrumb/archive/main.zip) och kopiera den till din `system/extensions` mapp. [Läs mer om tillägg](https://github.com/annaesvensson/yellow-update/tree/main/README-sv.md).
+
 ## Hur man lägger till en navigering 
 
 Skapa en `[breadcrumb]` förkortning. Brödcrumbnavigeringen genereras automatiskt från adressen.
@@ -43,10 +47,6 @@ Följande inställningar kan konfigureras i filen `system/extensions/yellow-syst
 
 `BreadcrumbSeparator` = text som visas mellan elementen  
 `BreadcrumbPagesMin` = antal sidor för att visa brödcrumbnavigering  
-
-## Installation
-
-[Ladda ner tillägg](https://github.com/annaesvensson/yellow-breadcrumb/archive/main.zip) och kopiera ZIP-fil till din `system/extensions` mapp. [Läs mer om tillägg](https://github.com/annaesvensson/yellow-update/tree/main/README-sv.md).
 
 ## Utvecklare
 

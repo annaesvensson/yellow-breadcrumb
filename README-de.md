@@ -6,6 +6,10 @@ Brotkrümel-Navigation.
 
 <p align="center"><img src="breadcrumb-screenshot.png?raw=true" alt="Bildschirmfoto"></p>
 
+## Wie man eine Erweiterung installiert
+
+[ZIP-Datei herunterladen](https://github.com/annaesvensson/yellow-breadcrumb/archive/main.zip) und in dein `system/extensions`-Verzeichnis kopieren. [Weitere Informationen zu Erweiterungen](https://github.com/annaesvensson/yellow-update/tree/main/README-de.md).
+
 ## Wie man eine Navigation hinzufügt
 
 Erstelle eine `[breadcrumb]`-Abkürzung. Die Brotkrümel-Navigation wird automatisch aus der Adresse erzeugt.
@@ -43,10 +47,6 @@ Die folgenden Einstellungen können in der Datei `system/extensions/yellow-syste
 
 `BreadcrumbSeparator` = Text der zwischen Elementen angezeigt wird  
 `BreadcrumbPagesMin` = Anzahl der Seiten um Brotkrümel-Navigation anzuzeigen  
-
-## Installation
-
-[Erweiterung herunterladen](https://github.com/annaesvensson/yellow-breadcrumb/archive/main.zip) und die ZIP-Datei in dein `system/extensions`-Verzeichnis kopieren. [Weitere Informationen zu Erweiterungen](https://github.com/annaesvensson/yellow-update/tree/main/README-de.md).
 
 ## Entwickler
 

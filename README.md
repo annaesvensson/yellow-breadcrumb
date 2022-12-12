@@ -6,6 +6,10 @@ Breadcrumb navigation.
 
 <p align="center"><img src="breadcrumb-screenshot.png?raw=true" alt="Screenshot"></p>
 
+## How to install an extension
+
+[Download ZIP file](https://github.com/annaesvensson/yellow-breadcrumb/archive/main.zip) and copy it into your `system/extensions` folder. [Learn more about extensions](https://github.com/annaesvensson/yellow-update).
+
 ## How to add a navigation
 
 Create a `[breadcrumb]` shortcut. The breadcrumb navigation is automatically generated from the location.
@@ -43,10 +47,6 @@ The following settings can be configured in file `system/extensions/yellow-syste
 
 `BreadcrumbSeparator` = text shown between elements  
 `BreadcrumbPagesMin` = number of pages to show breadcrumb navigation  
-
-## Installation
-
-[Download extension](https://github.com/annaesvensson/yellow-breadcrumb/archive/main.zip) and copy ZIP file into your `system/extensions` folder. [Learn more about extensions](https://github.com/annaesvensson/yellow-update).
 
 ## Developer
 
