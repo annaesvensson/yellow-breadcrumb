@@ -35,8 +35,8 @@ Layout file with breadcrumb:
     <div class="content">
     <div class="main" role="main">
     <h1><?php echo $this->yellow->page->getHtml("titleContent") ?></h1>
-    <?php echo $this->yellow->page->getExtra("breadcrumb") ?>
-    <?php echo $this->yellow->page->getContent() ?>
+    <?php echo $this->yellow->page->getExtraHtml("breadcrumb") ?>
+    <?php echo $this->yellow->page->getContentHtml() ?>
     </div>
     </div>
     <?php $this->yellow->layout("footer") ?>
