@@ -2,7 +2,7 @@
 // Breadcrumb extension, https://github.com/annaesvensson/yellow-breadcrumb
 
 class YellowBreadcrumb {
-    const VERSION = "0.8.10";
+    const VERSION = "0.8.11";
     public $yellow;         // access to API
     
     // Handle initialisation
@@ -12,8 +12,8 @@ class YellowBreadcrumb {
         $this->yellow->system->setDefault("breadcrumbPagesMin", "2");
     }
     
-    // Handle page content of shortcut
-    public function onParseContentShortcut($page, $name, $text, $type) {
+    // Handle page content element
+    public function onParseContentElement($page, $name, $text, $attributes, $type) {
         $output = null;
         if ($name=="breadcrumb" && ($type=="block" || $type=="inline")) {
             $separator = $this->yellow->system->get("breadcrumbSeparator");
@@ -37,6 +37,6 @@ class YellowBreadcrumb {
     
     // Handle page extra data
     public function onParsePageExtra($page, $name) {
-        return $this->onParseContentShortcut($page, $name, "", "block");
+        return $this->onParseContentElement($page, $name, "", "", "block");
     }
 }
