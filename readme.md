@@ -1,4 +1,4 @@
-# Breadcrumb 0.9.1
+# Breadcrumb 1.0.1
 
 Breadcrumb navigation. Developed by Anna Svensson.
 
